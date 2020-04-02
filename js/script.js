@@ -12,9 +12,9 @@ import initFuncionamento from './modules/funcionamento.js';
 import initFetchAnimais from './modules/fetchAnimais.js';
 import initFetchBitcoin from './modules/fetch-bitcoin.js';
 
-initScrollSuave();
 initScrollAnimacao();
 initAccordion();
+initScrollSuave();
 initTabNav();
 initModal();
 initTooltip();

@@ -1,5 +1,5 @@
 function initScrollAnimacao() {
-	function animaScroll() {
+	function animaScroll() {		
 		const sections = document.querySelectorAll('[data-anime="scroll"]');
 		const window60 = window.innerHeight * 0.75;
 	
@@ -12,11 +12,7 @@ function initScrollAnimacao() {
 			}
 		});
 	}
-	window.addEventListener('scroll', animaScroll)
-	
-	
-	
-	
+	window.addEventListener('scroll', animaScroll);
 	
 	// outra maneira
 	/*

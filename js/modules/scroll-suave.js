@@ -24,7 +24,6 @@ function initScrollSuave() {
 
    }
    const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
-
    linksInternos.forEach((link) => {
       link.addEventListener('click', scrollToSection);
    });
